@@ -13,5 +13,13 @@ You should NOT try to redefine any of the above variables.
 //Create a variable called mod set to an equation whose remainder is equal to "4".
 //Create a variable called max that will return "20" as the highest number in the set.
 
+const newID = 1000000000 + oldID;
 
+const ageIsValid = Number.isInteger(currentAge);
+
+const randomNumber = Math.random() * 20;
+
+const randomInteger = Math.floor(randomNumber);
+
+const randomUserID = randomInteger + 1000000001;
 
