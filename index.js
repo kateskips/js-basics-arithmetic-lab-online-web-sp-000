@@ -13,10 +13,28 @@ You should NOT try to redefine any of the above variables.
 //Create a variable called mod set to an equation whose remainder is equal to "4".
 //Create a variable called max that will return "20" as the highest number in the set.
 
-let var1 = 31;
-let var2 = 2;
+function scuberGreetingForFeet(x) {
+  if (x <= 400) {
+    return 'This one is on me!'
+  } else if (x > 2000 && x <= 2500) {
+    return 'I will gladly take your thirty bucks.'
+  } else if (x > 2500) {
+    return 'No can do.'
+  }
+}
 
+function ternaryCheckCity(city) {
+  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
+}
 
-
-let multiply = '62';
+function switchOnCharmFromTip(tip) {
+  switch (tip) {
+    case 'generous':
+      return 'Thank you so much.'
+    case 'not as generous':
+      return 'Thank you.'
+    default:
+      return 'Bye.'
+  }
+}
 
